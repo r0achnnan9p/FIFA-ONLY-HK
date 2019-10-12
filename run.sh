@@ -29,4 +29,5 @@ iptables -t filter -A fifa-only-hk -i $internal_interface -p udp -d 203.195.122.
 iptables -t filter -A fifa-only-hk -i $internal_interface -p udp -d 52.58.40.0/24 -j DROP
 iptables -t filter -A fifa-only-hk -i $internal_interface -p udp -d 103.194.165.0/24 -j DROP
 iptables -t filter -A fifa-only-hk -i $internal_interface -p udp -d 18.162.38.0/24 -j DROP
+iptables -t filter -A fifa-only-hk -i $internal_interface -p udp -d 3.1.113.0/24 -j DROP
 echo "Done!"
